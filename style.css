@@ -1,5 +1,9 @@
-*{
+body{
     background-color: var(--cor-de-fundo);
+   
+}
+
+*{
     color: var(--branco);
 }
 
@@ -66,7 +70,20 @@ span{
 .abas-conteudo.ativo{
     display: block;
 }
-
+.abas-texto{
+    background-color: var(--botao-ativo);
+    padding: 40px;
+    border-radius: 15px;
+}
+.aba-conteudo-titulo-principal{
+font-size: 28px;
+text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
 @media screen and (min-width: 700px){
     .botoes{
         display: flex;
