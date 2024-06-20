@@ -1,12 +1,23 @@
 const botoes  = document.querySelectorAll(".botao");
 const conteudo = document.querySelectorAll(".abas-conteudo");
 const tempo = document.querySelectorAll(".contador");
-tempo[0].textContent="Ola"
-const tempoObjetivo = new Date(2024,11,24,23,59);
-const tempoObjetivo2 = new Date();
-
+const tempoObjetivo1 = new Date(2024,11,24,23,59);
+const tempoObjetivo2 = new Date(2024,9,28,23,59);
+const tempoObjetivo3 = new Date(2025,0,1,23,59);
+const tempoObjetivo4 = new Date(2025,2,14,23,59);
 const agora = new Date();
-tempo[1].textContent=agora
+let segundos;
+let minutos;
+let horas;
+let dias;
+
+segundos = (tempoObjetivo1-agora)/1000
+minutos = segundos/60
+horas = minutos/60
+dias = horas/24
+
+tempoObjetivo1-agora;
+tempo[0].textContent = tempoObjetivo1-agora
 console.log(tempo);
 for (let i = 0; i < botoes.length; i++) {
     botoes[i].onclick = function(){
