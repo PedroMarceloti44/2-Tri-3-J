@@ -64,13 +64,13 @@ span{
     border-bottom: 2px solid var(--verde);
 }
 
-.abas-conteudo {
+.aba-conteudo {
     display: none;
 }
-.abas-conteudo.ativo{
+.aba-conteudo.ativo{
     display: block;
 }
-.abas-texto{
+.aba-texto{
     background-color: var(--botao-ativo);
     padding: 40px;
     border-radius: 15px;
