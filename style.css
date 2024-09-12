@@ -64,6 +64,28 @@ span{
     border-bottom: 2px solid var(--verde);
 }
 
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito{
+    padding: 0 16px;
+    margin: 0;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+}
+
 .aba-conteudo {
     display: none;
 }
